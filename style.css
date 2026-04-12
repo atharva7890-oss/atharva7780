@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0b1120; /* deep cool navy */
+    color: #e2e8f0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: #020617;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    font-size: 20px;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #94a3b8;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #38bdf8;
+    object-fit: cover;
+}
+
+.hero h2 {
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+/* Cards */
+.card {
+    background: #020617;
+    margin: 30px auto;
+    padding: 25px;
+    width: 85%;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.08);
+}
+
+/* Certificates */
+.cert-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cert-container img {
+    width: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.cert-container img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #020617;
+    color: #64748b;
+}
